@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+.TopBar {
+  height: 60px;
+  border-bottom: 3px solid #16cccc;
+}
+
+.topBAr--center {
+  height: 59px;
+  width: 1263px;
+  background-color: #ffffff;
+}
+.logo {
+  height: 90px;
+}
+
+.titreText > h1 {
+  font-size: 2rem;
+  margin-top: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.titreText > p {
+  color: #868a8a;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.infoResto {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoResto > img {
+  width: 350px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #f3f5f5;
+}
